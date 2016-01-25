@@ -170,7 +170,6 @@ h4,
 h5,
 h6 {
   margin-top: 0;
-  logo: 2rem;
   font-weight: 300;
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -361,6 +360,7 @@ svg {
 
 .logos img {
   margin-top: 10px;
+  height: 70px
 }
 
 .right-align {
