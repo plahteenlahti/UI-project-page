@@ -360,7 +360,7 @@ svg {
 
 .logos img {
   margin-top: 10px;
-  height: 70px
+  height: 90px
 }
 
 .right-align {
@@ -477,6 +477,6 @@ pre code {
 
 @media (max-width: 1000px) {
   .logos img {
-    height: 60px;
+    height: 90px;
   }
 }
