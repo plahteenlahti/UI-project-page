@@ -1,0 +1,482 @@
+html {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 1.5em;
+  line-height: 1.6;
+  font-weight: 400;
+  color: #333;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.column,
+.columns {
+  width: 100%;
+  float: left;
+  box-sizing: border-box;
+}
+
+
+/* For devices larger than 400px */
+
+@media (min-width: 400px) {
+  .container {
+    width: 85%;
+    padding: 0;
+  }
+}
+
+
+/* For devices larger than 550px */
+
+@media (min-width: 550px) {
+  .container {
+    width: 80%;
+  }
+  .column,
+  .columns {
+    margin-left: 4%;
+  }
+  .column:first-child,
+  .columns:first-child {
+    margin-left: 0;
+  }
+  .one.column,
+  .one.columns {
+    width: 4.66666666667%;
+  }
+  .two.columns {
+    width: 13.3333333333%;
+  }
+  .three.columns {
+    width: 22%;
+  }
+  .four.columns {
+    width: 30.6666666667%;
+  }
+  .five.columns {
+    width: 39.3333333333%;
+  }
+  .six.columns {
+    width: 48%;
+  }
+  .seven.columns {
+    width: 56.6666666667%;
+  }
+  .eight.columns {
+    width: 65.3333333333%;
+  }
+  .nine.columns {
+    width: 74.0%;
+  }
+  .ten.columns {
+    width: 82.6666666667%;
+  }
+  .eleven.columns {
+    width: 91.3333333333%;
+  }
+  .twelve.columns {
+    width: 100%;
+    margin-left: 0;
+  }
+  .one-third.column {
+    width: 30.6666666667%;
+  }
+  .two-thirds.column {
+    width: 65.3333333333%;
+  }
+  .one-half.column {
+    width: 48%;
+  }
+  /* Offsets */
+  .offset-by-one.column,
+  .offset-by-one.columns {
+    margin-left: 8.66666666667%;
+  }
+  .offset-by-two.column,
+  .offset-by-two.columns {
+    margin-left: 17.3333333333%;
+  }
+  .offset-by-three.column,
+  .offset-by-three.columns {
+    margin-left: 26%;
+  }
+  .offset-by-four.column,
+  .offset-by-four.columns {
+    margin-left: 34.6666666667%;
+  }
+  .offset-by-five.column,
+  .offset-by-five.columns {
+    margin-left: 43.3333333333%;
+  }
+  .offset-by-six.column,
+  .offset-by-six.columns {
+    margin-left: 52%;
+  }
+  .offset-by-seven.column,
+  .offset-by-seven.columns {
+    margin-left: 60.6666666667%;
+  }
+  .offset-by-eight.column,
+  .offset-by-eight.columns {
+    margin-left: 69.3333333333%;
+  }
+  .offset-by-nine.column,
+  .offset-by-nine.columns {
+    margin-left: 78.0%;
+  }
+  .offset-by-ten.column,
+  .offset-by-ten.columns {
+    margin-left: 86.6666666667%;
+  }
+  .offset-by-eleven.column,
+  .offset-by-eleven.columns {
+    margin-left: 95.3333333333%;
+  }
+  .offset-by-one-third.column,
+  .offset-by-one-third.columns {
+    margin-left: 34.6666666667%;
+  }
+  .offset-by-two-thirds.column,
+  .offset-by-two-thirds.columns {
+    margin-left: 69.3333333333%;
+  }
+  .offset-by-one-half.column,
+  .offset-by-one-half.columns {
+    margin-left: 52%;
+  }
+}
+
+
+/*TYPOGRAPHY*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  logo: 2rem;
+  font-weight: 300;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 4.0rem;
+  line-height: 1.2;
+  letter-spacing: -.1rem;
+}
+
+h2 {
+  font-size: 3.6rem;
+  line-height: 1.25;
+  letter-spacing: -.1rem;
+}
+
+h3 {
+  font-size: 3.0rem;
+  line-height: 1.3;
+  letter-spacing: -.1rem;
+}
+
+h4 {
+  font-size: 2.4rem;
+  line-height: 1.35;
+  letter-spacing: -.08rem;
+}
+
+h5 {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  letter-spacing: -.05rem;
+}
+
+h6 {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  letter-spacing: 0;
+}
+
+
+/* Larger than phablet */
+
+@media (min-width: 550px) {
+  h1 {
+    font-size: 5.0rem;
+  }
+  h2 {
+    font-size: 4.2rem;
+  }
+  h3 {
+    font-size: 3.6rem;
+  }
+  h4 {
+    font-size: 3.0rem;
+  }
+  h5 {
+    font-size: 2.4rem;
+  }
+  h6 {
+    font-size: 1.5rem;
+  }
+}
+
+p {
+  margin-top: 0;
+  font-family: 'Roboto Slab', serif;
+}
+
+a {
+  font-family: 'Roboto Slab', serif;
+  color: #7554A0;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline !important;
+}
+
+
+/*SECTIONS*/
+
+section {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+section h5 {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+svg {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 0;
+}
+
+
+/*TITLE*/
+
+.header {
+  margin: 0;
+  padding: 0;
+}
+
+.title-section {
+  z-index: 1;
+  width: 100%;
+  position: fixed;
+  top: 0%;
+  background: #fff;
+}
+
+.title-section-inner {
+  margin: 0 auto;
+  width: 400px;
+}
+
+.title-section-inner ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.title-section-inner ul li {
+  float: left;
+  margin: 0 0.3rem;
+}
+
+.title-section-inner ul li a {
+  line-height: 0;
+  text-decoration: none;
+}
+
+.title-section-inner svg {
+  margin-bottom: 0;
+}
+
+.fill {
+  margin-top: 40px;
+}
+
+.anchor {
+  display: block;
+  height: 20px;
+  /*same height as header*/
+  margin-top: -20px;
+  /*same height as header*/
+  visibility: hidden;
+}
+
+
+/*HERO*/
+
+
+/*HERO WITH BACKGROUND -  Uncomment this for hero with background and white text
+.hero {
+    height: 500px;
+}
+
+.hero h1, .author-list li a, .university-list li a {
+    color: #fff;
+}
+
+.hero-background {
+    background-image: url('example-hero.jpg'); Change with your own
+    background-size: cover;
+    display: block;
+    height: 800px;
+    left: 0;
+    position: absolute;
+    right: 0;lorem
+    z-index: -1;
+}
+*/
+
+.author-info {
+  float: right;
+}
+
+.logos {
+  margin-top: 30px;
+}
+
+.logos img {
+  margin-top: 10px;
+}
+
+.right-align {
+  text-align: right;
+}
+
+.author-list {
+  list-style: none;
+  margin-top: 30px;
+}
+
+.author-list li a {
+  text-decoration: none;
+}
+
+.author-list li a span {
+  font-weight: 700;
+  vertical-align: super
+}
+
+.university-list {
+  list-style: none;
+}
+
+.university-list li a {
+  text-decoration: none;
+}
+
+.university-list li a span {
+  line-height: 3px;
+  font-weight: 700;
+}
+
+
+/*LIGHTBOX*/
+
+.lightbox {
+  /** Default lightbox to hidden */
+  display: none;
+  /** Position and style */
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.lightbox img {
+  /** Pad the lightbox image */
+  max-width: 90%;
+  max-height: 80%;
+  margin-top: 10%;
+}
+
+.lightbox:target {
+  outline: none;
+  display: block;
+}
+
+
+/*MATERIALS*/
+
+.material-list {
+  list-style: none;
+  padding: 0;
+}
+
+.material-list li {
+  margin: 1rem 0;
+}
+
+.material-list li a {
+  text-decoration: none;
+}
+
+
+/*CITATION*/
+
+.authors-citation {
+  float: left;
+  font-style: italic;
+}
+
+.title-citation {
+  float: left;
+  font-weight: 700;
+}
+
+.release-citation {
+  float: left;
+}
+
+pre code {
+  margin-top: 30px;
+  float: left;
+}
+
+
+/*MOBILE*/
+
+@media (max-width: 400px) {}
+
+@media (max-width: 600px) {
+  .logos {
+    display: none;
+  }
+  .hero-img {
+    height: 200px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .logos img {
+    height: 60px;
+  }
+}
